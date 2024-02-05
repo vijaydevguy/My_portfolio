@@ -92,7 +92,7 @@ const Project = () => {
 
             <motion.button
               className={`${filter === "HTML,CSS,Javascript" ? "active" : ""}`}
-              onClick={() => setFilter("HTML,CSS,Javascript,All")}
+              onClick={() => setFilter("HTML,CSS,Javascript")}
               variants={Filter}
             >
               HTML & CSS, Javascript -  <span>{Html_Css}</span>
@@ -100,7 +100,7 @@ const Project = () => {
 
             <motion.button
               className={`${filter === "React" ? "active" : ""}`}
-              onClick={() => setFilter("React,All")}
+              onClick={() => setFilter("React")}
               variants={Filter}
             >
               React JS - <span>{React}</span>

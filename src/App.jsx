@@ -23,7 +23,6 @@ function App() {
         <Project/>
         <Testimonial/>
         <Contact/>
-    
         <Footer/>
       </div>
     </>
